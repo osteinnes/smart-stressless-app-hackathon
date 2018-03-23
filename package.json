@@ -1,0 +1,50 @@
+{
+  "name": "Stress",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.3.10",
+    "nodejs-mobile-react-native": "^0.1.4",
+    "npm": "^5.7.1",
+    "process": "^0.11.0",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.2",
+    "react-native-tcp": "^3.3.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "readable-stream": "^1.0.33",
+    "samsung-tv-remote": "^1.0.0",
+    "stream-browserify": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1",
+    "rn-nodeify": "^10.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "net": "react-native-tcp"
+  }
+}
